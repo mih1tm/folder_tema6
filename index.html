@@ -9,16 +9,28 @@
 <body>
     <br>
     <label style="font-size: 30px;" for="question_1">Introduceti intrebarea: </label>
-    <input style="font-size: 30px;" type="text" id="question_1" name="question_1">
+    <input style="font-size: 30px;" type="text" id="question_1" name="question_1" placeholder="Tasteaza...">>
     <br>
     <label style="font-size: 30px;" for="response_1"> Raspuns 1: </label>
-    <input style="font-size: 30px;" type="text" id="response_1" name="response_1">
+    <input style="font-size: 30px;" type="text" id="response_1" name="response_1" placeholder="minim 3 caractere...">
     <br>
     <label style="font-size: 30px;" for="response_2">Raspuns 2: </label>
-    <input style="font-size: 30px;" type="text" id="response_2" name="response_2">
+    <input style="font-size: 30px;" type="text" id="response_2" name="response_2" placeholder="minim 3 caractere...">
     <br>
-    <button style="font-size: 40px;" id="add_button" name="add_button">Add</button>
+    <button 
+        onclick="add_seturi.verificare_lungime_input(); 
+        add_seturi.verificare_input_finish()" 
+        style="font-size: 40px;" 
+        id="add_button" 
+        name="add_button"
+        >Add</button>
 
+    <br><br><br><br>
+    <p id="zona_print_istoric0"></p>
+    <p id="zona_print_istoric1"></p>
+    <p id="zona_print_istoric2"></p>
+    <p id="zona_print_istoric3"></p>
+    <p id="zona_print_istoric4"></p>
     
 </body>
 
