@@ -1,0 +1,39 @@
+Tema 6 WebProgramming
+
+
+Creați un proiect nou în
+Visual Studio / WebStorm cu numele :
+ Tema6 .
+
+Proiectul înregistrează un set de
+întrebări si răspunsuri.
+
+Proiectul are o pagina principală in
+care utilizatorul poate introduce
+următoarele informații :
+
+Un text care reprezintă o întrebare
+
+Un set de 2 răspunsuri posibile  la
+ aceasta întrebare
+
+Pagina conține un button  cu numele
+“ADD” care se activează doar când
+întrebarea are completate cele 2
+răspunsuri ( șiruri de caractere )
+cu lungimea minima de 3 caractere.
+
+Ptr fiecare întrebare aplicația
+va genera un ID unic
+( ex : 1,2,3 …. sau alt format la alegere)
+
+Aceasta info se va salva într-o
+Structura De Date Abstracta (SDA)
+Introducerea întrebărilor si răspunsurile
+continua cât timp utilizatorul nu tastează
+cuvântul magic “finish” în zona în care se
+introduce intrebarea sau daca a introdus deja 5 întrebări.
+
+SDA ul trebuie sa fie persistent deoarece la start ul
+proiectului / app trebuie sa afișeze istoricul întrebărilor
+introduse la execuțiile anterioare ale app ului.
